@@ -63,5 +63,8 @@ public class string {
         String country = "Nepal";
         int q2 = country.toUpperCase().toLowerCase().length();
         System.out.println(q2);
+
+
+
     }
 }
