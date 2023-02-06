@@ -1,3 +1,6 @@
+import java.text.DateFormat;
+import java.util.Date;
+
 public class stringDay2 {
     public static void main(String[] args) {
 
@@ -89,6 +92,8 @@ public class stringDay2 {
         }
         System.out.println(rev);
 
+        Date today = new Date();
+        System.out.println(today);
 
 
     }
