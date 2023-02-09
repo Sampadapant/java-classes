@@ -179,6 +179,13 @@ public class stringDay5 {
         System.out.println(Arrays.toString(a3));
         System.out.println(a3[1]);
 
+        String myName1 = "sampada";
+        char[] ss1 =  myName1.toCharArray();
+        for (int i= 0; i <ss1.length; i++) {
+            //System.out.println(i);
+            System.out.println(ss1[i]);
+        }
+
 
 
 
