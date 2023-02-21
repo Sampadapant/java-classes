@@ -46,13 +46,13 @@ public class userDefinedClass {
             a.displayName();
         }
         //object of bank
-        new Bank ("Martin", "Savings");
-        new Bank ("rabin", "Fixed");
-        new Bank ("Slesha", "Call");
+        new Bank ("Martin", "Savings", 123);
+        new Bank ("rabin", "Fixed", 456);
+        new Bank ("Slesha", "Call", 897);
         Bank retail []= {
-                new Bank ("Martin", "Savings"),
-                new Bank ("rabin", "Fixed"),
-                new Bank ("Slesha", "Call"),
+                new Bank ("Martin", "Savings", 123),
+                new Bank ("rabin", "Fixed", 456),
+                new Bank ("Slesha", "Call", 897),
 
 
         };
@@ -62,6 +62,7 @@ public class userDefinedClass {
             b.depositAmt(); // calling out method
             System.out.println(b.accName); //printing property
             System.out.println(b.accType); //printing property
+            System.out.println(b.accNum);
         }
 
 
@@ -102,11 +103,12 @@ class Person {
 class Bank{
     String accName;
     String accType;
-    public Bank (String accName, String accType){
+    int accNum;
+    public Bank (String accName, String accType, int accNum){
         this.accName= accName;
         this.accType= accType;
+        this.accNum = accNum;
     }
     public void depositAmt(){
-        System.out.println(this.accName);
     }
 }

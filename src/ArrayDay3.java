@@ -174,6 +174,20 @@ public class ArrayDay3 {
                 }
         }
 
+        int []a11 = new int [3]; //it means a11 array has 3 elements
+        //int [] a12 = { 10,20,30};
+        a11[0] = 1;
+        a11[1] = 2;
+        a11[2] = 3;
+        //[1,2,3] string representation
+        for (int i =0; i<a11.length; i++){
+            //System.out.println(i); //to represent in index file
+            //System.out.println(a[i]); //elements in the array
+            //System.out.println(Arrays.toString(a11[i]));
+        }
+        System.out.println(Arrays.toString(a11));
+
+
 
 
     }
