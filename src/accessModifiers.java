@@ -32,6 +32,7 @@ class flowers {
 class Toys {
     private String color = "red"; //without constructor
     public void setColor (String clr) {
+
         this.color = clr;
     }
     public String getColor(){

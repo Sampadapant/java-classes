@@ -187,6 +187,10 @@ public class ArrayDay3 {
         }
         System.out.println(Arrays.toString(a11));
 
+        int [] x = new int[3];
+        System.out.println(x);
+        System.out.println(x[2]);
+
 
 
 
