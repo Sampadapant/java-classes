@@ -3,6 +3,7 @@ public class Array {
 
         String [] names = new String [4];
         String names1 [] = new String [4];
+        // String name [] = {"sampada", "sharmila","shabnam, "anjila"};
 
         names1 [0] = "Lok";
         names1 [1] = "Priya";
@@ -10,7 +11,7 @@ public class Array {
         names1 [3] = "Nakul";
 
         //Array stores elements by index
-
+        System.out.println(names1); //ref
         System.out.println(names1[0]);
         System.out.println(names1[1]);
         System.out.println(names1[2]);
@@ -30,6 +31,7 @@ public class Array {
 
         String [] elements = {"sodium", "potassium","chlorine","aluminium", "phosphorus"};
         System.out.println(elements[1]);
+        System.out.println(elements[0]);
         System.out.println(elements[2]);
 
         //for printing every element of array

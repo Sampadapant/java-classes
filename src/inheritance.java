@@ -1,26 +1,27 @@
 public class inheritance {
     public static void main(String[] args) {
 
+        //without using constructor
         grandFather rohini = new grandFather();
-        //System.out.println(rohini.firstName);
-        //System.out.println(rohini.lastName);
-        //rohini.displayGFatherName();
+        System.out.println(rohini.firstName);
+        System.out.println(rohini.lastName);
+        rohini.displayGFatherName(); //method call
 
         father shyam = new father();
-        //System.out.println(shyam.fFirstName);
-        //System.out.println(shyam.lastName);
-        //System.out.println(shyam.firstName);
-        //shyam.displayFatherName();
-        //shyam.displayGFatherName();
+        System.out.println(shyam.fFirstName);
+        System.out.println(shyam.lastName);
+        System.out.println(shyam.firstName);
+        shyam.displayFatherName();
+        shyam.displayGFatherName();
 
         daughter sampada = new daughter();
-        //System.out.println(sampada.daughterName);
-        //System.out.println(sampada.fFirstName);
-        //System.out.println(sampada.firstName);
-        //System.out.println(sampada.lastName);
-        //sampada.displayDaughterName();
-        //sampada.displayFatherName();
-        //sampada.displayGFatherName();
+        System.out.println(sampada.daughterName);
+        System.out.println(sampada.fFirstName);
+        System.out.println(sampada.firstName);
+        System.out.println(sampada.lastName);
+        sampada.displayDaughterName();
+        sampada.displayFatherName();
+        sampada.displayGFatherName();
 
         //with constructor
         GrandFatherA rohinip = new GrandFatherA("Rohini", "Pant");
@@ -47,7 +48,7 @@ public class inheritance {
     }
 }
 
-class grandFather{
+class grandFather{ //without using constructor
     String firstName = "Rohini";
     String lastName = "Pant";
 
@@ -74,7 +75,7 @@ class GrandFatherA {
     String firstName ;
     String lastName;
 
-    public GrandFatherA (String fn, String ln) {
+    public GrandFatherA (String fn, String ln) { //using constructor
         this.firstName = fn;
         this.lastName = ln;
     }

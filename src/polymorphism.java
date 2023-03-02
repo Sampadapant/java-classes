@@ -21,7 +21,8 @@ public class polymorphism {
         s.loan(44);
         s.savings(900);
 
-
+        SonD san = new SonD("shyam", "pant","sandesh");
+        san.displayName();
 
     }
 }
@@ -55,10 +56,12 @@ class Calculator1 {
    }
 }
 
-//METHOD OVERRIDING
-// Different class
-//Same method name
-//same signature via inheritance
+/*
+METHOD OVERRIDING
+ Different class
+Same method name
+same signature via inheritance
+*/
 
 class WorldBank {
     String city;
@@ -102,5 +105,30 @@ class SBL extends WorldBank{
     public void savings (int y){
         System.out.println("sbl: personal saving " + y);
         super.savings(23);
+    }
+}
+class FatherD {
+   String firstName;
+   String lastName;
+    public FatherD(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName= lastName;
+    }
+    public void displayName (){
+        System.out.println(this.firstName + this.lastName);
+    }
+}
+class SonD extends FatherD{
+    String sName;
+
+    public SonD(String firstName, String lastName, String sName) {
+        super(firstName, lastName);
+        this.sName = sName;
+    }
+
+    @Override
+    public void displayName() {
+        System.out.println(this.sName + this.lastName);
+        super.displayName();
     }
 }
