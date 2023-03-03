@@ -17,6 +17,7 @@ interface brinjal{
 
     }
     default void getPeel(){
+
         System.out.println("peel the brinjal");
     }
 }
