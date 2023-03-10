@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b3f16e5-51be-4106-b8c5-dad9c08063ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterFace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interFace1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interFace2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interFace3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interFace4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practicingInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inetrFacePractice11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/innerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/innerClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/overRidingoverLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practiceWithAnjila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/staticMethod1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interFaceDetail2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interFaceDetail2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
