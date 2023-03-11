@@ -1,6 +1,6 @@
 public class innerClass1 {
     public static void main(String[] args) {
-        office o = new office("Plex Pvt.Ltd","pokhara");
+        office o = new office("Plex Pvt.Ltd","biratnagar");
         System.out.println(o.officeName);
         System.out.println(o.location);
 
