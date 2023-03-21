@@ -44,9 +44,11 @@ class bankAccount1{
     static String branchname  = "Hurst";
 
     public void displayBalance(){
+
         System.out.println("balance called");
     }
-    public static void displayBranchName(){
+    public static void displayBranchName()
+    {
         System.out.println("bankAccount1.branchname");
     }
 

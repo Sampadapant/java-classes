@@ -1,3 +1,5 @@
+package Interface;
+
 public class interFace1 {
     public static void main(String[] args) {
         Institute i = new Institute();

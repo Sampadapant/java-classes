@@ -1,3 +1,5 @@
+package Interface;
+
 public class interFaceDetail2 {
     public static void main(String[] args) {
         veggies v = new veggies();
@@ -18,7 +20,7 @@ interface brinjal{
     }
     default void getPeel(){
 
-        System.out.println("peel the brinjal");
+        System.out.println("peel the Interface.brinjal");
     }
 }
 class veggies implements brinjal {

@@ -41,7 +41,7 @@ public class Array {
             System.out.println(elements[i]); //for printing every element of array
         }
 
-        String [] cosmetics = {"shampoo", "body wash", "lipstick","moisturizer","powder"};
+        String [] cosmetics = {"shampoo", "body wash", "Interface.lipstick","moisturizer","powder"};
         for (int i = 0; i< cosmetics.length; i++) {
            // System.out.println(i);
             System.out.println(cosmetics[i]);
@@ -167,7 +167,7 @@ public class Array {
 
         System.out.println(matrix[0][3]);
 
-        String [][] veg = {{"cauli","broccoli","asparagus","brinjal","carrot"},{"bean","cucumber","cabbage"}};
+        String [][] veg = {{"cauli","broccoli","asparagus","Interface.brinjal","carrot"},{"bean","cucumber","cabbage"}};
         //  0 1 2 3 4
         // [1,3,5,7,9]----- 0
         // [2,4,6,8,10] ----1

@@ -1,3 +1,5 @@
+package InnerClass;
+
 public class innerClassPractice {
     public static void main(String[] args) {
         makeupProducts mp = new makeupProducts("low",4);
@@ -5,7 +7,7 @@ public class innerClassPractice {
         System.out.println(mp.validity);
 
         makeupProducts.founDation fd = mp.new founDation();
-        fd.coverage();
+        fd.coverage(); //method calling should be sequential
         fd.displayType();
 
     }

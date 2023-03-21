@@ -1,3 +1,5 @@
+package InnerClass;
+
 public class innerClass1 {
     public static void main(String[] args) {
         office o = new office("Plex Pvt.Ltd","biratnagar");

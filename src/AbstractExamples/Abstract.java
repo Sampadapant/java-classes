@@ -1,3 +1,5 @@
+package AbstractExamples;
+
 public class Abstract {
     public static void main(String[] args) {
 // abstraction means hiding
@@ -34,17 +36,17 @@ abstract class WorldBank1{
 
         @Override
         public void loan() {
-            System.out.println("Lumbini loan");
+            System.out.println("AbstractExamples.Lumbini loan");
 
         }
 
         @Override
         public void savings() {
-            System.out.println("Lumbini savings");
+            System.out.println("AbstractExamples.Lumbini savings");
 
         }
        public void displayBranchName(){
-           System.out.println("Lumbini Branch");
+           System.out.println("AbstractExamples.Lumbini Branch");
 
        }
     }
@@ -61,12 +63,12 @@ class Bus extends Vehicle2{
 
     @Override
     public void start() {
-        System.out.println("Bus should start");
+        System.out.println("AbstractExamples.Bus should start");
     }
 
     @Override
     public void stop() {
-        System.out.println("Bus should stop");
+        System.out.println("AbstractExamples.Bus should stop");
     }
 
     public void dropPassengers(){

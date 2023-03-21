@@ -75,7 +75,7 @@ public class stringDay3 {
         }
         System.out.println(rev4);
 
-        String fruits = "apple, mango, banana, grapes, papaya";
+        String fruits = "Interface.apple, mango, banana, Interface.grapes, papaya";
         String userInput = "orange";
 
         if (fruits.contains(userInput)) {
@@ -84,7 +84,7 @@ public class stringDay3 {
             System.out.println("fruit is not available");
         }
 
-        String fruits1 = "apple, mango, banana, grapes, orange, papaya";
+        String fruits1 = "Interface.apple, mango, banana, Interface.grapes, orange, papaya";
         String userInput1 = "mango";
 
         if (fruits1.contains(userInput1)) {
@@ -93,7 +93,7 @@ public class stringDay3 {
             System.out.println("fruit is not available");
         }
 
-        String fruits2 = "apple, mango, banana, grapes, orange, papaya";
+        String fruits2 = "Interface.apple, mango, banana, Interface.grapes, orange, papaya";
         String userInput2 = "BANANA";
 
         if (fruits2.contains(userInput2)) {
@@ -102,7 +102,7 @@ public class stringDay3 {
             System.out.println("fruit is not available");
         }
 
-        String fruits3 = "apple, mango, banana, grapes, orange, papaya";
+        String fruits3 = "Interface.apple, mango, banana, Interface.grapes, orange, papaya";
         String userInput3 = "apple";
 
         if (!fruits3.contains(userInput3)) {
@@ -111,7 +111,7 @@ public class stringDay3 {
             System.out.println("fruit is available");
         }
 
-        String fruits4 = "apple, mango, banana, grapes, orange, papaya";
+        String fruits4 = "Interface.apple, mango, banana, Interface.grapes, orange, papaya";
         String userInput4 = "apPle";
 
         if (!fruits4.contains(userInput4)) {

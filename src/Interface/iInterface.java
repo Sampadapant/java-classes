@@ -1,3 +1,5 @@
+package Interface;
+
 public class iInterface {
     public static void main(String[] args) {
         Everest e = new Everest();
@@ -27,18 +29,18 @@ class Everest implements NRBRules {
 
     @Override
     public void save(int x) {
-        System.out.println("savings: Everest");
+        System.out.println("savings: Interface.Everest");
     }
 
     @Override
     public void loan(int x) {
-        System.out.println("loan:Everest");
+        System.out.println("loan:Interface.Everest");
 
     }
 
     @Override
     public void discount(int x) {
-        System.out.println("discount: Everest");
+        System.out.println("discount: Interface.Everest");
 
     }
 }
@@ -46,19 +48,19 @@ class NABIL implements NRBRules{
 
     @Override  //it is giving the body for unimplemented methods
     public void save(int x) {
-        System.out.println( "NABIL save");
+        System.out.println( "Interface.NABIL save");
 
     }
 
     @Override
     public void loan(int x) {
-        System.out.println("NABIL loan");
+        System.out.println("Interface.NABIL loan");
 
     }
 
     @Override
     public void discount(int x) {
-        System.out.println("NABIL discount");
+        System.out.println("Interface.NABIL discount");
 
     }
 }

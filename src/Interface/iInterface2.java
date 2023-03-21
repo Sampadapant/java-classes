@@ -1,3 +1,5 @@
+package Interface;
+
 public class iInterface2 {
     public static void main(String[] args) {
         GandakiH h = new GandakiH("Pokhara", "western");
@@ -49,31 +51,31 @@ class GandakiPKH extends GandakiH implements NRBankRules1,RBBRules1  {
 
     @Override
     public void save() {
-        System.out.println("GandakiPKH save");
+        System.out.println("Interface.GandakiPKH save");
 
     }
 
     @Override
     public void loan() {
-        System.out.println(" GandakiPKH loan");
+        System.out.println(" Interface.GandakiPKH loan");
 
     }
 
     @Override
     public void discount() {
-        System.out.println("GandakiPKH discount");
+        System.out.println("Interface.GandakiPKH discount");
 
     }
 
     @Override
     public void loanRate() {
-        System.out.println("GandakiPKH loanRate");
+        System.out.println("Interface.GandakiPKH loanRate");
 
     }
 
     @Override
     public void depoRate() {
-        System.out.println("GandakiPKH depoRate");
+        System.out.println("Interface.GandakiPKH depoRate");
 
     }
 }

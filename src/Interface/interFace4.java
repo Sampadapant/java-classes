@@ -1,3 +1,5 @@
+package Interface;
+
 public class interFace4 {
     public static void main(String[] args) {
         //Interface can also have default method

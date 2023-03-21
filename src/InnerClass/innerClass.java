@@ -1,3 +1,5 @@
+package InnerClass;
+
 public class innerClass {
     public static void main(String[] args) {
         University11 u = new University11();

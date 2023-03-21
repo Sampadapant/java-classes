@@ -1,3 +1,5 @@
+package Interface;
+
 public class interFace2 {
     public static void main(String[] args) {
 // interface extends interface
@@ -23,9 +25,9 @@ interface Festival{
     public void familyTime();
     public void partyLateNight();
 }
-// we want to implement the set up of holidays and festival to Weekend. So,to avoid the repetition we have extend the Weekend
+// we want to implement the set up of holidays and festival to Interface.Weekend. So,to avoid the repetition we have extend the Interface.Weekend
 //we don't want to define two interface separately.
-// Weekend will have its own method including of Holidays and Festival.
+// Interface.Weekend will have its own method including of Interface.Holidays and Interface.Festival.
 interface Weekend extends Holidays,Festival{ // this is inheritance between the interface
      public void barbeQue();
      public void watchMovies();
@@ -59,7 +61,7 @@ class Weekdays implements Weekend{
     }
     @Override
     public void barbeQue() {
-        System.out.println("evening barbeque with music is full of life");
+        System.out.println("evening barbeque with music is full of Interface.life");
     }
     @Override
     public void watchMovies() {

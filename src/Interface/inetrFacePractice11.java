@@ -1,3 +1,5 @@
+package Interface;
+
 public class inetrFacePractice11 {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package Interface;
+
 public class interFace3 {
     public static void main(String[] args) {
         //EXAMPLE OF EXTEND

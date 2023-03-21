@@ -1,3 +1,5 @@
+package Interface;
+
 public class interfaceDetail {
     public static void main(String[] args) {
         opSof os = new opSof();

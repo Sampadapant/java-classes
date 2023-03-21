@@ -1,3 +1,5 @@
+package Interface;
+
 public class iInterface1 {
     public static void main(String[] args) {
         Sunrise s = new Sunrise();
@@ -24,30 +26,30 @@ class Sunrise implements NRBankRules,RBB{
 // one class can implement more than one interface //implementing method
     @Override
     public void loan() {
-        System.out.println("Sunrise loan");
+        System.out.println("Interface.Sunrise loan");
     }
 
     @Override
     public void save() {
-        System.out.println("Sunrise save");
+        System.out.println("Interface.Sunrise save");
 
     }
 
     @Override
     public void discount() {
-        System.out.println("Sunrise discount");
+        System.out.println("Interface.Sunrise discount");
 
     }
 
     @Override
     public void homeLoan() {
-        System.out.println("Sunrise homeLoan");
+        System.out.println("Interface.Sunrise homeLoan");
 
     }
 
     @Override
     public void autoLoan() {
-        System.out.println("Sunrise autoLoan");
+        System.out.println("Interface.Sunrise autoLoan");
 
     }
 }

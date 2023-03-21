@@ -1,3 +1,5 @@
+package Interface;
+
 public class interFaceDetail1 {
     public static void main(String[] args) {
         Fruits f = new Fruits("red","small", "round");
